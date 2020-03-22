@@ -11,7 +11,7 @@ export default class MovieDetails extends React.Component {
             <div className="movie-details">
                 <div>Rating: {movie.rating}</div>
                 <div>Release year: {movie.releaseYear}</div>
-                <div>genre: {(movie.genre).toString()}</div>
+                <div>Genre: {(movie.genre).toString()}</div>
                 <button onClick={this.props.goBack} className="back-btn">Back</button>
             </div>
         </div>
