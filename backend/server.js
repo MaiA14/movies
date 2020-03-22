@@ -1,3 +1,4 @@
+const dotenv = require ('dotenv');
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -6,6 +7,8 @@ const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const app = express()
 const http = require('http').createServer(app);
+
+dotenv.config({path: '/config.env'})
 
 const movieRoutes = require('./api/movie/movie.routes')
 

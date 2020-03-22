@@ -1,6 +1,6 @@
 
 const MongoClient = require('mongodb').MongoClient;
-const uri = 'mongodb+srv://maiaa1993:12341234m@cluster0-lnrfd.mongodb.net/test?retryWrites=true&w=majority';
+const uri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-lnrfd.mongodb.net/test?retryWrites=true&w=majority`;
 const config  =  require('../config')
 
 module.exports = {
