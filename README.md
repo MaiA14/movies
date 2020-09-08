@@ -1,3 +1,22 @@
+# Movies
+
+An app that contains a list of movies according release year (new to old) with ability to read details about every movie. 
+
+Front-end : React , CSS ,HTML5.
+<br>
+Back-end : NodeJS, Express, and MongoDB.
+
+![Image of eventsys overview](https://i.ibb.co/CMRwNbt/New-Project-13.png)
+
+![Image of eventsys overview](https://i.ibb.co/nzbXkgC/New-Project-14.png)
+
+The app supports various mobile and browsers.
+
+![Image of eventsys overview](https://i.ibb.co/4SQYyNC/New-Project-15.png)
+
+![Image of eventsys overview](https://i.ibb.co/Yhh4LTJ/New-Project-16.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
