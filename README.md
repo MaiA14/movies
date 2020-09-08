@@ -1,4 +1,4 @@
-# Movies
+# Movieland
 
 An app that contains a list of movies according release year (new to old) with ability to read details about every movie. 
 
