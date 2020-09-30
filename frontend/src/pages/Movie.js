@@ -4,7 +4,7 @@ import  movieService from '../services/movieService';
 import MovieDetails from '../components/MovieDetails/MovieDetails';
 import Spinner from '../components/Spinner/Spinner';
 
-export default class PetPage extends React.Component {
+export default class MoviePage extends React.Component {
 
     state = {
         movie: null
